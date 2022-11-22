@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Jogo Da Velha</title>
-        <!--importar o bootstrap.css-->
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
-        <link type="text/css" rel="stylesheet" href="css/estilo.css" />
-    </head>
-    <body>
-        <div class="container" id="main">
-            <span id="turn"> Tic Tac Toe <br> 
-                
-                Jogo Da Velha</span>
-    
-                <!--Ao colocar o style dentro do arquivo css tudo ficava azul na primeira jogada-->
-                <div class="box" style="border-left: 0; border-top: 0" id="box1"></div>
-                <div class="box" style="border-top: 0" id="box2"></div>
-                <div class="box" style="border-top: 0; border-right: 0" id="box3"></div>
-                <div class="box" style="border-left: 0" id="box4"></div>
-                <div class="box" id="box5"></div>
-                <div class="box" style="border-right: 0" id="box6"></div>
-                <div class="box" style="border-left: 0; border-bottom: 0" id="box7"></div>
-                <div class="box" style="border-bottom: 0" id="box8"></div>
-                <div class="box" style="border-right: 0; border-bottom: 0" id="box9"></div>
-            </div>
-        <!--importar o jQuery.js antes do bootstrap.js e seus plugins-->
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/bootstrap.js"></script>
-        <script type="text/javascript" src="js/JavaBase.js"></script>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Jogo Da Velha</title>
+    <!--importar o bootstrap.css-->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="css/estilo.css" />
+</head>
+
+<body>
+    <div class="container" id="main">
+        <span id="turn"> Tic Tac Toe <br>
+            Jogo Da Velha</span>
+        <!--Ao colocar o style dentro do arquivo css tudo ficava azul na primeira jogada-->
+        <div class="box" style="border-left: 0; border-top: 0" id="box1"></div>
+        <div class="box" style="border-top: 0" id="box2"></div>
+        <div class="box" style="border-top: 0; border-right: 0" id="box3"></div>
+        <div class="box" style="border-left: 0" id="box4"></div>
+        <div class="box" id="box5"></div>
+        <div class="box" style="border-right: 0" id="box6"></div>
+        <div class="box" style="border-left: 0; border-bottom: 0" id="box7"></div>
+        <div class="box" style="border-bottom: 0" id="box8"></div>
+        <div class="box" style="border-right: 0; border-bottom: 0" id="box9"></div>
+    </div>
+    <div>
+        <button class="btn btn btn-success center" type="button" onclick="PlayAgain()">Jogar De Novo</button>
+    </div>
+    <!--importar o jQuery.js antes do bootstrap.js e seus plugins-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/JavaBase.js"></script>
+</body>
+
 </html>
